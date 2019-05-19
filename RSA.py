@@ -2,15 +2,23 @@
 # coding: utf-8
 
 # In[26]:
-
+from math import gcd
+def coprime(a,b):
+    return gcd(a,n)==1
 
 p=5
 q=7
 n=p*q
 z=(p-1)*(q-1)
+
 for i in range(0,n):#"e" has to be smaller than n
-    if(i%z!=0):
-        print (i)
+    if(coprime(i,z)==1):
+        print(i)
+
+#or we can do it without using any libraries
+#for i in range(0,n):
+#     if(i%z!=0):
+#         print (i)
 
 
 # In[30]:
