@@ -4,7 +4,7 @@
 # In[26]:
 from math import gcd
 def coprime(a,b):
-    return gcd(a,n)==1
+    return gcd(a,b)==1
 
 p=5
 q=7
