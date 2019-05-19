@@ -3,13 +3,12 @@
 
 # In[26]:
 from math import gcd
-def coprime(a, b):
-    return gcd(a,b) == 1
 def coprime_2(a,b):
     if(gcd(a,b)==1):
         return True
     else:
         return False
+    
 #or we can run the code below:    
 
 
